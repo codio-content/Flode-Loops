@@ -1,0 +1,246 @@
+{
+ "sections": [
+  {
+   "id": "c8136e6a-a497-2142-83a4-719e2a1b98dc",
+   "title": "Loops",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "example.flode",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels-tree",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Loops-c813.md",
+   "chapter": false,
+   "reset": []
+  },
+  {
+   "id": "e21d4083-c87f-f251-7bf6-ca5eca7eadd0",
+   "title": "Counters & variables",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Counters---variables-e21d.md",
+   "chapter": false,
+   "reset": []
+  },
+  {
+   "id": "f8289a94-27dd-b97d-ecad-335dc113364b",
+   "title": "The loop condition",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/The-loop-condition-f828.md",
+   "chapter": false,
+   "reset": []
+  },
+  {
+   "id": "d120b532-c104-3991-9768-8e86b3b1c90",
+   "title": "Count from 0 to N",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "0-N.flode",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Count-from-0-to-N-d120.md",
+   "chapter": false,
+   "reset": []
+  },
+  {
+   "id": "4d65d79-f549-5f12-937-19ca5355139e",
+   "title": "Count from N to 0",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "N-0.flode",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Count-from-N-to-0-4d65.md",
+   "chapter": false,
+   "reset": []
+  },
+  {
+   "id": "3e0a81c0-5191-d600-a70-570064df69c1",
+   "title": "Even numbers only",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "0-N-even.flode",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Even-numbers-only-3e0a.md",
+   "chapter": false,
+   "reset": []
+  },
+  {
+   "id": "549ea2b1-6555-f548-30d0-1cdb5588f860",
+   "title": "Utility variables",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "utility.flode",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Utility-variables-549e.md",
+   "chapter": false,
+   "reset": []
+  },
+  {
+   "id": "bdd97ab-f0bd-48ef-f2ed-43e653a93b4c",
+   "title": "Times table",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "times-table.flode",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Times-table-bdd9.md",
+   "chapter": false,
+   "reset": []
+  },
+  {
+   "id": "a0c1ed31-7d47-7fc3-5a41-b114a76ca91f",
+   "title": "Factorial",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "factorial.flode",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Factorial-a0c1.md",
+   "chapter": false,
+   "reset": []
+  },
+  {
+   "id": "d669f314-2594-e078-4de6-9a953f74265f",
+   "title": "Squared",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "squared.flode",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Squared-d669.md",
+   "chapter": false,
+   "reset": []
+  },
+  {
+   "id": "8a46b660-c34a-57f8-d24a-afff936c10d3",
+   "title": "X to the Y",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "xy.flode",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/X-to-the-Y-8a46.md",
+   "chapter": false,
+   "reset": []
+  },
+  {
+   "id": "6c77311f-b329-3f21-5778-76ee465450d0",
+   "title": "Fibonacci Sequence",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "fibonacci.flode",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Fibonacci-Sequence-6c77.md",
+   "chapter": false,
+   "reset": []
+  },
+  {
+   "id": "2d10ccca-4731-3565-a2fc-fef88b66ff9",
+   "title": "All done",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/All-done-2d10.md",
+   "chapter": false,
+   "reset": []
+  }
+ ],
+ "theme": "light",
+ "scripts": []
+}
