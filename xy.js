@@ -13,7 +13,7 @@ var expected = Math.pow(x, y);
 
 var out = testing.RunGraphWithInputs(script, [x, y]);
 
-console.log(out)
+// console.log(out)
 
 if(out.length == 0) {
   console.log("Your program isn't outputting anything.")
