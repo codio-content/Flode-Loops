@@ -1,17 +1,17 @@
 
 var testing = require('/home/codio/workspace/.guides/test-fw/testing')
 
-var script = 'squared.flode';
+var script = 'xy.flode';
 
 var x = Math.round(Math.random() * 9 + 1);
 var y = Math.round(Math.random() * 11 + 1);
 var expected = Math.pow(x, y);
 
-console.log(x)
-console.log(y)
-console.log(expected)
+// console.log(x)
+// console.log(y)
+// console.log(expected)
 
-var out = testing.RunGraphWithInputs(script, [random]);
+var out = testing.RunGraphWithInputs(script, [x, y]);
 
 console.log(out)
 
