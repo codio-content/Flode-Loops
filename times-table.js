@@ -6,16 +6,16 @@ var testing = require('/home/codio/workspace/.guides/test-fw/testing')
 var random = Math.round(Math.random() * 18 + 2);
 var expected = [];
 
-for(var i = 1; i < 12; i++) {
+for(var i = 1; i <= 12; i++) {
   expected.push(i * random);
 }
 
-console.log(random)
-console.log(expected)
+// console.log(random)
+// console.log(expected)
 
 var out = testing.RunGraphWithInputs(script, [random]);
 
-console.log(out)
+// console.log(out)
 
 if(out.length == 0) {
   console.log("Your program isn't outputting anything.")

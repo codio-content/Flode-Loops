@@ -8,7 +8,7 @@ var out = testing.RunGraphWithInputs('0-N.flode', [0]);
 testing.RunGraphWithInputs('0-N.flode', [1]);
 testing.RunGraphWithInputs('0-N.flode', [random]);
 
-console.log(out)
+// console.log(out)
 
 if(out.length == 0) {
   console.log("Your program isn't outputting anything.")

@@ -17,19 +17,26 @@ for(i = 2; i <= random; i++) {
   expected[i] = expected[i-2] + expected[i-1];
 }
 
-console.log(random)
-console.log(expected)
+// console.log(random)
+// console.log(expected)
 
 var out = testing.RunGraphWithInputs(script, [random]);
 
-console.log(out)
+// console.log(out)
 
 if(out.length == 0) {
   console.log("Your program isn't outputting anything.")
   process.exit(1)
 }
 
-if(out[0] == expected) {
+if(out.length == expected.length) {
+  for(var i = 0; i < expected.length; i++) {
+    if(typeof out[i] == 'undefined' || out[i] != expected[i]) {
+      console.log('Not quite right, make sure you are outputting every positive number in the range including 0.')
+      process.exit(1)
+    }
+  } 
+ 
   console.log('Well done!')
   process.exit(0)
 }

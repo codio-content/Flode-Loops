@@ -1,22 +1,20 @@
 
-var script = 'N-0.flode';
+var script = '0-N-even.flode';
 
 var testing = require('/home/codio/workspace/.guides/test-fw/testing')
 
-var random = Math.round(Math.random() * 90 + 10);
+var random = Math.round(Math.random() * 10 + 10);
 // handles 0 and 1 case
 var expected = []
 
-for(var i = 1; i < random; i++) {
+for(var i = 0; i <= random; i++) {
   if(i % 2 == 0) expected.push(i);
 }
 
 // console.log(random)
 // console.log(expected)
 
-var out = testing.RunGraphWithInputs(script, [0]);
-testing.RunGraphWithInputs(script, [1]);
-testing.RunGraphWithInputs(script, [random]);
+var out = testing.RunGraphWithInputs(script, [random]);
 
 // console.log(out)
 

@@ -13,12 +13,12 @@ var script = 'factorial.flode';
 var random = Math.round(Math.random() * 11 + 1);
 var expected = fact(random);
 
-console.log(random)
-console.log(expected)
+// console.log(random)
+// console.log(expected)
 
 var out = testing.RunGraphWithInputs(script, [random]);
 
-console.log(out)
+// console.log(out)
 
 if(out.length == 0) {
   console.log("Your program isn't outputting anything.")

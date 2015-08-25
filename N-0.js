@@ -17,7 +17,7 @@ var out = testing.RunGraphWithInputs('N-0.flode', [0]);
 testing.RunGraphWithInputs('N-0.flode', [1]);
 testing.RunGraphWithInputs('N-0.flode', [random]);
 
-console.log(out)
+// console.log(out)
 
 if(out.length == 0) {
   console.log("Your program isn't outputting anything.")

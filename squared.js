@@ -10,12 +10,12 @@ for(var i = 0; i <= random; i++) {
   expected += i * i;
 }
 
-console.log(random)
-console.log(expected)
+// console.log(random)
+// console.log(expected)
 
 var out = testing.RunGraphWithInputs(script, [random]);
 
-console.log(out)
+// console.log(out)
 
 if(out.length == 0) {
   console.log("Your program isn't outputting anything.")
