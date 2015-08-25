@@ -9,7 +9,7 @@
      "action": "close"
     },
     {
-     "path": "example.flode",
+     "path": "1-loops/example.flode",
      "panel": 0,
      "action": "open"
     }
@@ -18,8 +18,10 @@
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Loops-c813.md",
-   "chapter": false,
-   "reset": []
+   "chapter": true,
+   "reset": [
+    "1-loops"
+   ]
   },
   {
    "id": "e21d4083-c87f-f251-7bf6-ca5eca7eadd0",
@@ -39,6 +41,22 @@
    "type": "markdown",
    "content-file": ".guides/content/The-loop-condition-f828.md",
    "chapter": false,
+   "reset": []
+  },
+  {
+   "id": "bb18fce0-1bb8-7ea2-bd3c-da9e57f3788f",
+   "title": "Challenges",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Challenges-bb18.md",
+   "chapter": true,
    "reset": []
   },
   {
@@ -113,7 +131,7 @@
      "action": "close"
     },
     {
-     "path": "utility.flode",
+     "path": "2-loops/utility.flode",
      "panel": 0,
      "action": "open"
     }
@@ -122,7 +140,25 @@
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Utility-variables-549e.md",
-   "chapter": false,
+   "chapter": true,
+   "reset": [
+    "2-loops"
+   ]
+  },
+  {
+   "id": "483ada2-3b7b-349a-c689-d356899242e0",
+   "title": "Challenges",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Challenges-483a.md",
+   "chapter": true,
    "reset": []
   },
   {
@@ -242,5 +278,6 @@
   }
  ],
  "theme": "light",
- "scripts": []
+ "scripts": [],
+ "lexikonTopic": ""
 }
