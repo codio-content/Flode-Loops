@@ -11,14 +11,14 @@ for(var i = 1; i < random; i++) {
   if(i % 2 == 0) expected.push(i);
 }
 
-console.log(random)
-console.log(expected)
+// console.log(random)
+// console.log(expected)
 
 var out = testing.RunGraphWithInputs(script, [0]);
 testing.RunGraphWithInputs(script, [1]);
 testing.RunGraphWithInputs(script, [random]);
 
-console.log(out)
+// console.log(out)
 
 if(out.length == 0) {
   console.log("Your program isn't outputting anything.")
