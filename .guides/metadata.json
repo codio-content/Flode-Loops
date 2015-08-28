@@ -1,8 +1,55 @@
 {
  "sections": [
   {
-   "id": "c8136e6a-a497-2142-83a4-719e2a1b98dc",
+   "id": "f2ba496d-9d9d-bba9-3fa-450d3aaeddc3",
    "title": "Loops",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Loops-f2ba.md",
+   "chapter": true,
+   "reset": []
+  },
+  {
+   "id": "4c9e559e-12f8-e1e-4a1c-83eabeef88fc",
+   "title": "Preparation video",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Preparation-video-4c9e.md",
+   "chapter": false,
+   "reset": []
+  },
+  {
+   "id": "a5d7e34-7ff8-d078-86c4-b992cdcf3bff",
+   "title": "Experiments",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "experiment.flode",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Experiments-a5d7.md",
+   "chapter": false,
+   "reset": []
+  },
+  {
+   "id": "c8136e6a-a497-2142-83a4-719e2a1b98dc",
+   "title": "Loops overview",
    "files": [
     {
      "path": "#tabs",
@@ -14,10 +61,10 @@
      "action": "open"
     }
    ],
-   "layout": "2-panels-tree",
+   "layout": "",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Loops-c813.md",
+   "content-file": ".guides/content/Loops-overview-c813.md",
    "chapter": true,
    "reset": [
     "1-loops"
