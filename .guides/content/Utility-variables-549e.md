@@ -2,7 +2,7 @@ Very often in a loop, you will need to update a value with each *iteration* of y
 
 On the left is a good example of this. This Flode chart is doing the following.
 
-> Add up all the value between 0 and 10 and output the result.
+> Add up all the values between 0 and 10 and output the result.
 
 Now step through the chart and keep a close eye on the variable called `total`. You can see that this variable is updated each time we pass through the loop. Once the loop is finished, we output `total` that has been growing and growing with each *iteration* of the loop.
 
