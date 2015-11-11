@@ -1,12 +1,10 @@
 
 var testing = require('/home/codio/workspace/.guides/test-fw/testing')
 
-var random = Math.round(Math.random() * 90 + 10);
+var random = Math.round(Math.random() * 20);
 // console.log(random)
 
-var out = testing.RunGraphWithInputs('0-N.flode', [0]);
-testing.RunGraphWithInputs('0-N.flode', [1]);
-testing.RunGraphWithInputs('0-N.flode', [random]);
+var out = testing.RunGraphWithInputs('0-N.flode', [random]);
 
 // console.log(out)
 
@@ -20,7 +18,7 @@ if(out.length == random + 1) {
   var one = out[0] == 0;
 
   for(var i = 1; i < random + 1; i++) {
-    if(typeof out[i] == 'undefined' || out[i] != i - 1) {
+    if(typeof out[i] == 'undefined' || out[i] != i) {
       console.log('Not quite right, make sure you are outputting every number in the range.')
       process.exit(1)
     }
