@@ -3,7 +3,7 @@ Counters are critical to loops. You need to understand them 110% and luckily the
 If you look again at the Flode chart on the left, you can see a counter in operation.
 
 ## Creating Variables
-This is actually the first time when we create our own *variable* rather than simply working with `input0`, `input1` etc.
+This is actually the first time when we create our own *variable* rather than simply working with input blocks.
 
 If you look at the block with `counter = 0` in it, you can see a variable being created. Just by specifying `counter` we are actually creating a variable.
 
