@@ -4,7 +4,7 @@ var testing = require('/home/codio/workspace/.guides/test-fw/testing')
 var random = Math.round(Math.random() * 90 + 10);
 
 // handles 0 and 1 case
-var expected = [0, 1, 0];
+var expected = [];
 
 for(var i = random; i >=0; i--) {
  expected.push(i); 
@@ -13,9 +13,7 @@ for(var i = random; i >=0; i--) {
 // console.log(random)
 // console.log(expected)
 
-var out = testing.RunGraphWithInputs('N-0.flode', [0]);
-testing.RunGraphWithInputs('N-0.flode', [1]);
-testing.RunGraphWithInputs('N-0.flode', [random]);
+var out = testing.RunGraphWithInputs('N-0.flode', [random]);
 
 // console.log(out)
 
